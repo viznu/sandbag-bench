@@ -47,7 +47,7 @@ def evaluate_gate(
 ) -> GateResult:
     """Compute agreement of blinded NLA-text extractor with the target model's own answer.
 
-    Per Codex spec: items are base-correct, so extractor==model is equivalent to
+    Per spec: items are base-correct, so extractor==model is equivalent to
     extractor==gold. Abstain counts as incorrect for the gate; abstain rate is
     reported separately.
     """
